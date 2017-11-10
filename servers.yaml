@@ -1,0 +1,4 @@
+---
+servers:
+  - {address: 'cs.hexor.ru', port: 27015}
+  - {address: '77.220.180.27', port: 27015}
