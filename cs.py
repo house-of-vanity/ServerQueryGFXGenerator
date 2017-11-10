@@ -101,15 +101,17 @@ def get_status(address, port):
             server_type = 'listing'
         
         response = {
-            "name": a2s_info[0][6:],
-            "map": a2s_info[1],
-            "folder": a2s_info[2],
-            "game": a2s_info[3],
-            "players": players_count,
-            "max_players": max_players,
-            "platform": platform,
-            "server_type": server_type,
-            "player_list": players,
+            'data': [
+                {"{#NAME}": a2s_info[0][6:]},
+                {"{#MAP}": a2s_info[1]},
+                {"{#FOLDER}": a2s_info[2]},
+                {"{#GAME}": a2s_info[3]},
+                {"{#PLAYERS}": players_count},
+                {"{#MAX_PLAYERS}": max_players},
+                {"{#PLATFORM}": platform},
+                {"{#SERVER_TYPE}": server_type},
+                {"{#PLAYER_LIST}": players},
+            ]
         }
         return response
     finally:
