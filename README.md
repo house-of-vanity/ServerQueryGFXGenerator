@@ -8,9 +8,6 @@ Requre flask python module for web based version.
 * cs.py   - web based version. Provide http://localhost/status with current cs1.6 server statistic including player list. Also you can get simple gfx lable related with servers from servers.yaml config file using https://localhost/gfx/<servername>.
 * cli.py  - cli based version. You can use it with any other scripts, bash and etc. Doesn't requre any libraries but native python 2.
 
-gfx example:
-![Image of Yaktocat](https://hg.hexor.ru/cs-gfx/gfx/cs.hexor.ru)
-
 Response format is json:
 ```
 $ curl https://localhost/status
