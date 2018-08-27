@@ -1,7 +1,7 @@
 # ServerQueryGFXGenerator
 Script provides server info and stats gfx generator via HTTP
 
-warning! Script was tested only with v43 cs1.6 server with (and without) dproto. using python 2
+warning! Script was tested only with v43/44 cs1.6 server with (and without) dproto. using python 2
 
 Requre flask python module for web based version. 
 
