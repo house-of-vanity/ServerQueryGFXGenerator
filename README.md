@@ -29,3 +29,5 @@ $ curl https://localhost/status
   ]
 }
 ```
+
+#zabbix_ready
