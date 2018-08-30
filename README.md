@@ -30,4 +30,4 @@ $ curl https://localhost/status
 }
 ```
 
-#zabbix_ready
+#zabbix_ready #khui
